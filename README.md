@@ -7,6 +7,8 @@ An AI-powered, full-stack education intelligence system designed to personalize 
 ![Gemini AI](https://img.shields.io/badge/Gemini_AI-4285F4?logo=google&logoColor=white&style=for-the-badge)
 ![Pinecone](https://img.shields.io/badge/Pinecone-00A78E?logo=pinecone&logoColor=white&style=for-the-badge)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white&style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=chainlink&logoColor=white&style=for-the-badge)
+
 
 ---
 
@@ -54,6 +56,9 @@ This project combines modern web technologies and AI infrastructure to deliver a
 | **Pinecone** | **Vector Database**: Stores embeddings for semantic search, enabling concept-based retrieval and similarity queries. |
 | **Tailwind CSS** | **UI Framework**: Builds a consistent, dark-themed design with rapid, utility-first styling. |
 | **Vercel** | **Deployment**: Frontend and backend services on Vercel for smooth CI/CD and scaling. |
+| **LangChain** | **Orchestration**: Manages the full RAG pipeline — from embeddings and vector retrieval to response synthesis — enabling structured, context-aware AI workflows. |
+
+
 
 ---
 
