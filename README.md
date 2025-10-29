@@ -59,15 +59,3 @@ This project combines modern web technologies and AI infrastructure to deliver a
 
 ---
 
-## 📦 Getting Started
-
-This is a multi-service monorepo with independent services for frontend, backend, and AI components.
-
----
-
-### Installation & Setup
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/vikasgautam2003/minerva-ai.git
-   cd minerva-ai
