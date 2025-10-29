@@ -52,8 +52,6 @@ This project combines modern web technologies and AI infrastructure to deliver a
 | **Next.js (TypeScript)** | **Frontend Framework**: Provides a performant, type-safe, SSR-enabled client for smooth and dynamic UI experiences. |
 | **Gemini AI** | **Core AI Engine**: Powers chat-based tutoring, document summarization, and contextual understanding. |
 | **Pinecone** | **Vector Database**: Stores embeddings for semantic search, enabling concept-based retrieval and similarity queries. |
-| **Node.js** | **Backend Runtime**: Manages API endpoints, authentication, and real-time communication logic. |
-| **FastAPI** | **AI Microservice Framework**: Handles embeddings generation and Gemini model queries in a lightweight, containerized service. |
 | **Tailwind CSS** | **UI Framework**: Builds a consistent, dark-themed design with rapid, utility-first styling. |
 | **Vercel** | **Deployment**: Frontend and backend services on Vercel for smooth CI/CD and scaling. |
 
