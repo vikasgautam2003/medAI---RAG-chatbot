@@ -536,7 +536,7 @@ const MinervaLandingPage: React.FC = () => {
               </motion.p>
 
               <motion.a
-                href="/ingest"
+                href="/ai"
                 className="inline-flex items-center justify-center px-8 sm:px-10 py-3 sm:py-4 text-base sm:text-xl font-extrabold rounded-full text-gray-900 bg-white shadow-2xl shadow-sky-500/30 hover:bg-gray-200 transition-all transform hover:scale-[1.05] space-x-3"
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
