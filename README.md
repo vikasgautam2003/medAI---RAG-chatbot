@@ -14,17 +14,7 @@ An AI-powered, full-stack education intelligence system designed to personalize 
 
 ---
 
-## 📖 About The Project
 
-**Minerva.ai** is an adaptive learning intelligence platform built to personalize digital education using **AI-driven knowledge retrieval, smart feedback, and contextual recommendations**.
-
-By leveraging **Gemini AI** for comprehension and summarization, **Pinecone** for vector-based semantic search, and a **Next.js + FastAPI** multi-service architecture, Minerva.ai provides a seamless experience for learners and educators alike.
-
-It enables natural-language Q&A, document comprehension, and concept-level retrieval — turning static course material into an interactive, evolving learning ecosystem.
-
-![Project Screenshot](/frontend/public/minerva.png)
-
----
 
 ## 📖 About The Project
 
@@ -34,17 +24,22 @@ Unlike generic chatbots, Minerva.ai employs a strict Retrieval-Augmented Generat
 
 The application features a secure, multi-stage user flow: File Upload -> Private Indexing -> Conversational Querying.
 
-# 🌟 Key Features
 
-Contextual RAG for Health: Utilizes Gemini Embeddings and Pinecone Vector Store to index medical reports, ensuring the AI only answers based on the patient's specific health record.
+![Project Screenshot](public/med.png)
 
-Zero-Knowledge Architecture: Documents are processed client-side and sent directly to a private Pinecone namespace. The LLM only sees retrieved chunks of data, never the full database.
 
-Conversational Memory: The backend uses LangChain's memory components to ensure the assistant remembers the prior context of the diagnosis discussion, enabling complex follow-up questions.
+## 🌟 Key Features
 
-Modern, Professional UI: Designed with a sleek, responsive, and trustworthy medical aesthetic using Tailwind CSS and advanced animations via Framer Motion.
+- **Contextual RAG for Health**: Utilizes **Gemini Embeddings** and **Pinecone Vector Store** to index medical reports, ensuring the AI responds only using the patient's specific health data for accurate, context-aware answers.
 
-Isolated Data Handling: Each report is indexed into a unique namespace, providing necessary data isolation and security for multi-user medical data.
+- **Zero-Knowledge Architecture**: Implements full **client-side document processing**, where files are sent directly to a private Pinecone namespace. The Gemini model only accesses retrieved chunks — never the complete database — ensuring maximum data privacy.
+
+- **Conversational Memory**: Employs **LangChain’s memory components** to maintain the full context of medical consultations, allowing the assistant to handle complex follow-up questions and multi-turn discussions intelligently.
+
+- **Modern, Professional UI**: Features a sleek, medically trustworthy interface designed with **Tailwind CSS** and enriched with **Framer Motion** animations for smooth, responsive interactions.
+
+- **Isolated Data Handling**: Every user’s report is indexed into a **dedicated Pinecone namespace**, ensuring strict isolation and data security for multi-user medical environments.
+
 
 ---
 
